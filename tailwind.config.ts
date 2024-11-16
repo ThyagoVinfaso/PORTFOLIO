@@ -13,7 +13,7 @@ export default {
         foreground: "var(--foreground)",
         cinza_escuro: "#212336",
         cinza_claro: "#b7b7b7",
-        
+        azul_cinzento: "#23263a"
       },
     },
   },
