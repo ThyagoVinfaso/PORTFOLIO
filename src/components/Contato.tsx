@@ -2,6 +2,10 @@
 
 export default function Contato(){
 
-return();
+return(
+    <div>
+        abrobra
+    </div>
+);
 
 }
