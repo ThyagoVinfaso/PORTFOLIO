@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Contato from "@/components/Contato";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Numeros from "@/components/Numeros";
 import Skillset from "@/components/Skillset";
@@ -12,6 +13,7 @@ export default function Home() {
       <Numeros />
       <Skillset />
       <Contato />
+      <Footer />
     </main>
   );
 }
