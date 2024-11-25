@@ -9,7 +9,7 @@ export default function Navbar() {
 
     return (
         <header className="w-screen bg-cinza_escuro flex flex-row items-center justify-evenly py-6 fixed">
-            <Image src={""} alt={""}  />
+           
             <div className="flex flex-row justify-between desktop:w-[40vw] mobile:gap-2">
                 <button onClick={()=>ClickHandler("inicio")} className="text-cinza_claro hover:text-white">Início</button>
                 <button onClick={()=>ClickHandler("estagios")} className="text-cinza_claro hover:text-white">Estágios</button>
