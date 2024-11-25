@@ -18,6 +18,10 @@ export default {
         azul_cinzento_meio_claro: "#282a41",
         vermelho: "#ff4b58"
       },
+      screens: {
+				'mobile': { 'max': '999px' },
+				'desktop': { 'min': '1000px' },
+			},
     },
   },
   plugins: [],

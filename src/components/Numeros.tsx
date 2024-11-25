@@ -6,14 +6,14 @@ export default function Numeros() {
 
 
     return (
-        <div className="w-screen grid grid-cols-2 px-[10vw]">
-            <div className="pr-[20vw]">
+        <div className="w-screen grid desktop:grid-cols-2 mobile:grid-cols-1 desktop:px-[10vw] mobile:px-[5vw]">
+            <div className="desktop:pr-[20vw]">
                 <button className="text-cinza_claro font-extralight before:content-['←_'] tracking-wider">Lorem Lorem</button>
                 <p className="text-3xl">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
                 <p className="text-cinza_claro my-12">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
                 <button className="text-2xl text-vermelho font-bold after:content-['_→'] mt-4">Lorem Lorem</button>
             </div>
-            <div className="pr-[15vw]">
+            <div className="desktop:pr-[15vw]">
                 <p className="text-3xl">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
                 <p className="text-cinza_claro my-12">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
                 <div className="grid grid-cols-2">
