@@ -21,6 +21,7 @@ export default {
       screens: {
 				'mobile': { 'max': '999px' },
 				'desktop': { 'min': '1000px' },
+        'desktop_g': {'min': '1280px'},
 			},
     },
   },

@@ -6,7 +6,7 @@ export default function Numeros() {
 
 
     return (
-        <div className="w-screen grid desktop:grid-cols-2 mobile:grid-cols-1 desktop:px-[10vw] mobile:px-[5vw]">
+        <div id="estagios" className="w-screen grid desktop:grid-cols-2 mobile:grid-cols-1 desktop:px-[10vw] mobile:px-[5vw] scroll-mt-32">
             <div className="desktop:pr-[20vw]">
                 <button className="text-cinza_claro font-extralight before:content-['←_'] tracking-wider">Lorem Lorem</button>
                 <p className="text-3xl">ESTÁGIO EM PROGRAMAS DE EXTENSÃO</p>
