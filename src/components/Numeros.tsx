@@ -11,7 +11,7 @@ export default function Numeros() {
                 <button className="text-cinza_claro font-extralight before:content-['←_'] tracking-wider">Lorem Lorem</button>
                 <p className="text-3xl">ESTÁGIO EM PROGRAMAS DE EXTENSÃO</p>
                 <p className="text-cinza_claro my-12">Atuei em programas de extensão voltados a Biometria infantil e Museu Tecnológico de Agricultura, trabalhei como desenvolvedor ativo em ambos os casos utilizando principalmente React, Next e Python</p>
-                <button className="text-2xl text-vermelho font-bold after:content-['_→'] mt-4">Lorem Lorem</button>
+                <button onClick={()=>document.location.href="https://www.linkedin.com/in/thyago-vinícius-farías-de-souza-b0b06526b/"} className="text-2xl text-vermelho font-bold after:content-['_→'] mt-4">Linkedin</button>
             </div>
             <div className="desktop:pr-[15vw]">
                 <p className="text-3xl">COMPROMETIMENTO EM ENTREGAR O MELHOR PARA A EQUIPE</p>

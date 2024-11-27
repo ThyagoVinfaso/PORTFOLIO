@@ -11,7 +11,7 @@ export default function Banner() {
                 <p className="mt-[2vh] text-cinza_claro">Meu nome é Thyago, sou desenvolvedor focado principalmente em Front-end e com forte interesse em QA, atualmente graduando do 7º período de engenharia de Software da UTFPR.</p>
                 </div>
                 
-                <button className="flex h-[6vh] desktop:w-[14vw] mobile:w-[50vw] items-center justify-center bg-vermelho mt-[2vh] rounded-sm hover:animate-pulse">
+                <button onClick={()=>document.location.href="https://github.com/ThyagoVinfaso"} className="flex h-[6vh] desktop:w-[14vw] mobile:w-[50vw] items-center justify-center bg-vermelho mt-[2vh] rounded-sm hover:animate-pulse">
                     <p className="">Github</p>
 
                 </button>
