@@ -14,16 +14,16 @@ export default function Numeros() {
                 <button className="text-2xl text-vermelho font-bold after:content-['_→'] mt-4">Lorem Lorem</button>
             </div>
             <div className="desktop:pr-[15vw]">
-                <p className="text-3xl">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
-                <p className="text-cinza_claro my-12">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
+                <p className="text-3xl">COMPROMETIMENTO EM ENTREGAR O MELHOR PARA A EQUIPE</p>
+                <p className="text-cinza_claro my-12">Já estagiei na diretoria de pesquisa e Pós Graduação do meu Câmpus. No estágio elaborei diversas atividades como refazer o site do setor em React com aplicação do Prisma, mas principalmente, desenvolvi fortemente meu senso coletivo e coopetativismo.</p>
                 <div className="grid grid-cols-2">
                     <div className="flex flex-row gap-4 items-end">
-                        <CountUp className="text-vermelho text-6xl font-bold" start={0} end={15} />
-                        <p>Lorem Lorem Lorem Lorem Lorem</p>
+                        <CountUp className="text-vermelho text-6xl font-bold" start={0} end={900} />
+                        <p>HORAS DE CÓDIGO</p>
                     </div>
                     <div className="flex flex-row gap-4 items-end">
-                        <CountUp className="text-vermelho text-6xl font-bold" start={0} end={15} />
-                        <p>Lorem Lorem Lorem Lorem Lorem</p>
+                        <CountUp className="text-vermelho text-6xl font-bold" start={0} end={4} />
+                        <p>ANOS DE ESTUDO</p>
                     </div>
                 </div>
             </div>
